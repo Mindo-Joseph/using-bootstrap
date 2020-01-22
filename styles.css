@@ -11,3 +11,58 @@ body {
     color: #333;
     background: #f4f5f6;
 }
+
+.header-top {
+    height: 95px;
+    background: #f72210;
+}
+  
+.header-top .container {
+    max-width: 1310px;
+    padding-top: 20px;
+}
+  
+.header-top date {
+    margin-left: 20px;
+    font-size: 16px;
+    font-stretch: condensed;
+    line-height: 34px;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+.btn-red,
+.btn-white {
+  padding: 0 12px;
+  font-size: 18px;
+  font-stretch: condensed;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-red:hover,
+.btn-white:hover {
+  text-decoration: none;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #f72210;
+}
+
+.btn-red:hover {
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #f72210;
+}
+
+.btn-white:hover {
+  color: #f72210;
+}
+
+  
