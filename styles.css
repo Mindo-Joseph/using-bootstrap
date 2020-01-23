@@ -253,3 +253,101 @@ h3 a:hover {
   text-decoration: none;
   color: #f72210;
 }
+@media only screen and (max-width: 768px) {
+  .latest-news-item {
+    grid-template-columns: 268px 1fr;
+  }
+}
+
+/* Magazine Section */
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+}
+
+.magazine-cover {
+  margin-top: 30px;
+}
+.magazine img {
+  vertical-align: bottom;
+}
+
+.features-link {
+  padding: 10px 10px 10px 12px;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: condensed;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  background-color: #f4f5f6;
+}
+
+.features-link:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #dbdcdd;
+}
+
+.magazine-row-bottom {
+  padding-top: 30px;
+}
+
+.magazine-item img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+
+.magazine-last img {
+  height: 319px;
+}
+
+.magazine-last .magazine-category {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.magazine-item h6 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.magazine-item .category {
+  position: static;
+  padding: 0;
+}
+
+.magazine-item .category a {
+  padding: 0;
+}
+
+.magazine-category {
+  display: inline-block;
+  margin-right: 7px;
+  padding: 0 7px;
+  color: #fff;
+  background-color: #f72210;
+}
+
+/* Editor's Pick section */
+
+.editors-pick-item {
+  margin-bottom: 20px;
+}
