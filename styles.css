@@ -115,3 +115,50 @@ ul{
   width: 20px;
   height: 20px;
 }
+.category {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.category a,
+.magazine-category {
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: condensed;
+  text-transform: uppercase;
+}
+
+.category a {
+  display: block;
+  padding: 8px 15px 9px;
+  text-decoration: none;
+  color: #f72210;
+  background-color: rgba(255,255,255,.9);
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: condensed;
+  line-height: 24px;
+}
+h2 a,
+h3 a {
+  color: #000;
+}
+
+h2 a:hover,
+h3 a:hover {
+  color: #000;
+  text-decoration: underline #f72210;
+}
+.featured-stories,
+.stories-main,
+.opinion-news,
+.more-stories {
+  padding-top: 15px;
+}
