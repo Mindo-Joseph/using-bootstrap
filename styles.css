@@ -240,3 +240,16 @@ h3 a:hover {
 .latest-news-item {
   padding: 14px 0;
 }
+.opinion-item {
+  display: grid;
+  grid-template-columns: 63px 1fr;
+  grid-gap: 15px;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+.opinion-item h6 a:hover,
+.latest-news-item h6 a:hover,
+.main-small h6 a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
