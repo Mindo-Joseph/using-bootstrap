@@ -173,3 +173,52 @@ h3 a:hover {
 .culture-travel h5 {
   padding: 10px;
 }
+
+.news-main,
+.featured-story,
+.culture-travel-item,
+.opinion,
+.latest-news,
+.magazine,
+.editors-pick {
+  padding-bottom: 20px;
+}
+
+.featured-story img,
+.top-story img,
+.culture-travel-item img,
+.opinion-item img,
+.latest-news-item img,
+.editors-pick img,
+.slideshow-item img,
+.main-category img,
+.cta-newsletter img,
+.magazine img {
+  width: 100%;
+}
+
+.culture-travel-content {
+  margin: 0 5px 10px 5px;
+  color: rgba(39,39,39,.5);
+}
+.culture-travel {
+  margin-top: 15px;
+  background-color: #f4f5f7;
+}
+
+.culture-travel h5 {
+  padding: 10px;
+}
+.more-stories-item,
+.latest-news-item,
+.main-small {
+  display: grid;
+  grid-template-columns: 135px 1fr;
+  grid-gap: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.more-stories-item,
+.latest-news-item {
+  padding: 14px 0;
+}
