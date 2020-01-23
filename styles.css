@@ -165,3 +165,11 @@ h3 a:hover {
 .img-wrapper {
   position: relative;
 }
+.culture-travel {
+  margin-top: 15px;
+  background-color: #f4f5f7;
+}
+
+.culture-travel h5 {
+  padding: 10px;
+}
