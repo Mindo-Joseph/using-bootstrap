@@ -351,3 +351,22 @@ h3 a:hover {
 .editors-pick-item {
   margin-bottom: 20px;
 }
+
+/* Main Category */
+.main-category {
+  margin-top: 30px;
+}
+
+.main-small {
+  padding: 10px 0;
+}
+
+.main-category-top {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.main-last {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
