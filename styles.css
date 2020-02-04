@@ -370,3 +370,182 @@ h3 a:hover {
   padding-bottom: 30px;
   border-bottom: 1px solid #ddd;
 }
+
+/* Call to Action section */
+
+.cta {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.cta h5 {
+  color: #f72210;
+}
+
+.subscribe {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  grid-gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 30px;
+  background-color: #f4f5f6;
+}
+
+.cta-newsletter {
+  display: grid;
+  grid-template-columns: 191px 1fr;
+  grid-template-rows: 300px auto;
+}
+
+.cta .btn-red {
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  font-size: 18px;
+}
+
+.subscribe-info .btn-red:hover {
+  background-color: #de1f03;
+}
+
+.cta p {
+  margin-bottom: 25px;
+}
+
+.cta-newsletter img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.newsletter-info {
+  height: 300px;
+  padding: 25px;
+  border: 1px solid #ddd;
+}
+
+.col-lg-5 .newsletter-info {
+  height: 345px;
+}
+
+.col-md-12 .newsletter-info {
+  height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cta-newsletter {
+    grid-template-columns: 190px 1fr;
+    grid-template-rows: 190px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .subscribe,
+  .cta-newsletter {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .cta-newsletter {
+    grid-template-rows: 160px 1fr;
+  }
+
+  .subscribe-info,
+  .newsletter-info {
+    text-align: center;
+  }
+}
+
+/* Footer */
+
+footer {
+  border-top: 1px solid #ebebeb;
+  color: #666;
+}
+
+footer a {
+  color: #666;
+}
+
+footer header {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 30px;
+  padding-bottom: 12px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.copyright {
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.social {
+  display: flex;
+  margin-left: auto;
+}
+
+.social li {
+  margin-left: 10px;
+}
+
+.genericon {
+  display: block;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.genericon:hover {
+  text-decoration: none;
+}
+
+.edition-links,
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edition-links li,
+.footer-nav li {
+  margin-top: 6px;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #d9d9d9;
+}
+
+.edition-links .last,
+.footer-nav .last {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: none;
+}
+
+.edition-links a:hover,
+.footer-nav a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.label {
+  cursor: default;
+  margin: 6px 15px 6px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  footer header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .copyright {
+    margin: 10px 0;
+  }
+
+  .social {
+    margin-left: -10px;
+  }
+}
