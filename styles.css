@@ -1,16 +1,18 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
+
 body {
-    min-width: 360px;
-    max-width: 1310px;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 20px;
-    color: #333;
-    background: #f4f5f6;
+  min-width: 360px;
+  max-width: 1310px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+  background: #f4f5f6;
 }
+
 strong {
   font-weight: 700;
 }
@@ -86,7 +88,7 @@ h5 {
   font-weight: bold;
   font-stretch: condensed;
   text-transform: uppercase;
-  color: rgba(3,3,3,.4)
+  color: rgba(3, 3, 3, 0.4);
 }
 
 h6 {
@@ -112,27 +114,28 @@ h6 a:hover {
   background: #fff;
 }
 
-
 .header-top {
-    height: 95px;
-    background: #f72210;
+  height: 95px;
+  background: #f72210;
 }
-  
+
 .header-top .container {
-    max-width: 1310px;
-    padding-top: 20px;
+  max-width: 1310px;
+  padding-top: 20px;
 }
-  
+
 .header-top date {
-    margin-left: 20px;
-    font-size: 16px;
-    font-stretch: condensed;
-    line-height: 34px;
-    color: #fff;
+  margin-left: 20px;
+  font-size: 16px;
+  font-stretch: condensed;
+  line-height: 34px;
+  color: #fff;
 }
-ul{
-    list-style-type: none;
+
+ul {
+  list-style-type: none;
 }
+
 .btn-red,
 .btn-white {
   padding: 0 12px;
@@ -203,7 +206,7 @@ ul{
   width: 60px;
   height: 54px;
   font-size: 16px;
-  color: rgba(0,0,0,.55);
+  color: rgba(0, 0, 0, 0.55);
   background-color: #fff;
   border: none;
 }
@@ -216,6 +219,7 @@ ul{
   width: 20px;
   height: 20px;
 }
+
 @media only screen and (max-width: 992px) {
   .header-top {
     height: 55px;
@@ -254,9 +258,8 @@ ul{
   padding: 8px 15px 9px;
   text-decoration: none;
   color: #f72210;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
-
 
 .featured-stories,
 .stories-main,
@@ -264,9 +267,11 @@ ul{
 .more-stories {
   padding-top: 15px;
 }
+
 .img-wrapper {
   position: relative;
 }
+
 .culture-travel {
   margin-top: 15px;
   background-color: #f4f5f7;
@@ -301,8 +306,9 @@ ul{
 
 .culture-travel-content {
   margin: 0 5px 10px 5px;
-  color: rgba(39,39,39,.5);
+  color: rgba(39, 39, 39, 0.5);
 }
+
 .culture-travel {
   margin-top: 15px;
   background-color: #f4f5f7;
@@ -311,6 +317,7 @@ ul{
 .culture-travel h5 {
   padding: 10px;
 }
+
 .more-stories-item,
 .latest-news-item,
 .main-small {
@@ -324,6 +331,7 @@ ul{
 .latest-news-item {
   padding: 14px 0;
 }
+
 .opinion-item {
   display: grid;
   grid-template-columns: 63px 1fr;
@@ -331,12 +339,14 @@ ul{
   padding: 10px 0;
   border-top: 1px solid #ddd;
 }
+
 .opinion-item h6 a:hover,
 .latest-news-item h6 a:hover,
 .main-small h6 a:hover {
   text-decoration: none;
   color: #f72210;
 }
+
 @media only screen and (max-width: 768px) {
   .latest-news-item {
     grid-template-columns: 268px 1fr;
@@ -352,6 +362,7 @@ ul{
   padding-bottom: 8px;
   border-bottom: 1px solid #d9d9d9;
 }
+
 .n-icon {
   display: inline-block;
   margin-right: 10px;
@@ -367,6 +378,7 @@ ul{
   font-stretch: condensed;
   text-transform: uppercase;
 }
+
 .section-heading {
   display: flex;
   align-items: center;
@@ -375,6 +387,7 @@ ul{
 .magazine-cover {
   margin-top: 30px;
 }
+
 .magazine img {
   vertical-align: bottom;
 }
@@ -536,7 +549,6 @@ ul{
   }
 }
 
-
 @media only screen and (max-width: 768px) {
   .subscribe,
   .cta-newsletter {
@@ -589,6 +601,7 @@ footer header {
 .social li {
   margin-left: 10px;
 }
+
 .slide-category {
   position: absolute;
   bottom: 0;
@@ -601,9 +614,11 @@ footer header {
   text-indent: 5px;
   background: url(../images/slideshow.png) 0 0/contain no-repeat;
 }
+
 .slide-category a {
   font-size: 20px;
 }
+
 .category a,
 .slide-category,
 .magazine-category {
@@ -623,7 +638,6 @@ footer header {
   text-decoration: none;
   color: #f72210;
 }
-
 
 .genericon {
   display: block;
