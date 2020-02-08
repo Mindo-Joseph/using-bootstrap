@@ -28,15 +28,6 @@ h1 {
   line-height: 22px;
 }
 
-h1 a {
-  color: inherit;
-}
-
-h1 a:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
 h2 {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -53,33 +44,6 @@ h3 {
   font-weight: bold;
   font-stretch: condensed;
   line-height: 24px;
-}
-
-h2 a,
-h3 a {
-  color: #000;
-}
-
-h2 a:hover,
-h3 a:hover {
-  color: #000;
-  text-decoration: underline #f72210;
-}
-
-h4 {
-  margin: 10px 5px;
-  font-family: "Lora", serif;
-  font-size: 20px;
-  line-height: 22px;
-}
-
-h4 a {
-  color: inherit;
-}
-
-h4 a:hover {
-  text-decoration: none;
-  color: inherit;
 }
 
 h5 {
@@ -99,13 +63,11 @@ h6 {
   line-height: 20px;
 }
 
-h6 a {
-  color: inherit;
-}
-
-h6 a:hover {
-  text-decoration: underline #f72210;
-  color: inherit;
+h4 {
+  margin: 10px 5px;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 .fluid-container {
@@ -124,16 +86,13 @@ h6 a:hover {
   padding-top: 20px;
 }
 
-.header-top date {
-  margin-left: 20px;
-  font-size: 16px;
-  font-stretch: condensed;
-  line-height: 34px;
-  color: #fff;
-}
-
 ul {
   list-style-type: none;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #f72210;
 }
 
 .btn-red,
@@ -146,26 +105,8 @@ ul {
   text-decoration: none;
 }
 
-.btn-red:hover,
-.btn-white:hover {
-  text-decoration: none;
-}
-
-.btn-red {
-  color: #fff;
-  background-color: #f72210;
-}
-
-.btn-red:hover {
-  color: #fff;
-}
-
 .btn-white {
   background-color: #fff;
-  color: #f72210;
-}
-
-.btn-white:hover {
   color: #f72210;
 }
 
@@ -174,29 +115,6 @@ ul {
   padding: 15px 160px 15px 0;
   background-color: #fff;
   border-bottom: 2px solid #f4f5f6;
-}
-
-.header-bottom ul {
-  width: 100%;
-}
-
-.header-bottom li {
-  text-align: center;
-  font-size: 21px;
-  font-weight: bold;
-  font-stretch: condensed;
-  line-height: 24px;
-  color: black;
-  border-right: 1px solid #d9d9d9;
-}
-
-.header-bottom a {
-  color: #000;
-  text-decoration: none;
-}
-
-.header-bottom a:hover {
-  color: #f72210;
 }
 
 .search-field {
@@ -220,47 +138,6 @@ ul {
   height: 20px;
 }
 
-@media only screen and (max-width: 992px) {
-  .header-top {
-    height: 55px;
-  }
-
-  .main-logo {
-    height: 20px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .header-top .btn-red,
-  .header-top .btn-white {
-    font-size: 14px;
-    padding: 0 3px;
-  }
-}
-
-.category {
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.category a,
-.magazine-category {
-  font-size: 17px;
-  font-weight: bold;
-  font-stretch: condensed;
-  text-transform: uppercase;
-}
-
-.category a {
-  display: block;
-  padding: 8px 15px 9px;
-  text-decoration: none;
-  color: #f72210;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
 .featured-stories,
 .stories-main,
 .opinion-news,
@@ -277,10 +154,6 @@ ul {
   background-color: #f4f5f7;
 }
 
-.culture-travel h5 {
-  padding: 10px;
-}
-
 .news-main,
 .featured-story,
 .culture-travel-item,
@@ -291,31 +164,11 @@ ul {
   padding-bottom: 20px;
 }
 
-.featured-story img,
-.top-story img,
-.culture-travel-item img,
-.opinion-item img,
-.latest-news-item img,
-.editors-pick img,
-.slideshow-item img,
-.main-category img,
-.cta-newsletter img,
-.magazine img {
-  width: 100%;
-}
-
-.culture-travel-content {
-  margin: 0 5px 10px 5px;
-  color: rgba(39, 39, 39, 0.5);
-}
-
-.culture-travel {
-  margin-top: 15px;
-  background-color: #f4f5f7;
-}
-
-.culture-travel h5 {
-  padding: 10px;
+.category {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .more-stories-item,
@@ -340,18 +193,11 @@ ul {
   border-top: 1px solid #ddd;
 }
 
-.opinion-item h6 a:hover,
-.latest-news-item h6 a:hover,
-.main-small h6 a:hover {
-  text-decoration: none;
-  color: #f72210;
+.culture-travel-content {
+  margin: 0 5px 10px 5px;
+  color: rgba(39, 39, 39, 0.5);
 }
 
-@media only screen and (max-width: 768px) {
-  .latest-news-item {
-    grid-template-columns: 268px 1fr;
-  }
-}
 
 /* Magazine Section */
 
@@ -386,6 +232,166 @@ ul {
 
 .magazine-cover {
   margin-top: 30px;
+}
+
+.magazine-category {
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 7px;
+  padding: 0 7px;
+  color: #fff;
+  background-color: #f72210;
+}
+
+h1 a {
+  color: inherit;
+}
+
+h2 a,
+h3 a {
+  color: #000;
+}
+
+h4 a {
+  color: inherit;
+}
+
+h6 a {
+  color: inherit;
+}
+
+footer a {
+  color: #666;
+}
+
+.header-bottom a {
+  color: #000;
+  text-decoration: none;
+}
+
+.category a {
+  display: block;
+  padding: 8px 15px 9px;
+  text-decoration: none;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: condensed;
+  text-transform: uppercase;
+}
+
+.slide-category a {
+  font-size: 20px;
+}
+
+h2 a:hover,
+h3 a:hover {
+  color: #000;
+  text-decoration: underline #f72210;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+h4 a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+h6 a:hover {
+  text-decoration: underline #f72210;
+  color: inherit;
+}
+
+.btn-red:hover,
+.btn-white:hover {
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  color: #fff;
+}
+
+.btn-white:hover {
+  color: #f72210;
+}
+
+.header-bottom ul {
+  width: 100%;
+}
+
+.header-bottom li {
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: condensed;
+  line-height: 24px;
+  color: black;
+  border-right: 1px solid #d9d9d9;
+}
+
+.header-bottom a:hover {
+  color: #f72210;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-top {
+    height: 55px;
+  }
+
+  .main-logo {
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header-top .btn-red,
+  .header-top .btn-white {
+    font-size: 14px;
+    padding: 0 3px;
+  }
+}
+
+.culture-travel h5 {
+  padding: 10px;
+}
+
+.featured-story img,
+.top-story img,
+.culture-travel-item img,
+.opinion-item img,
+.latest-news-item img,
+.editors-pick img,
+.slideshow-item img,
+.main-category img,
+.cta-newsletter img,
+.magazine img {
+  width: 100%;
+}
+
+.edition-links a:hover,
+.footer-nav a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.opinion-item h6 a:hover,
+.latest-news-item h6 a:hover,
+.main-small h6 a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+@media only screen and (max-width: 768px) {
+  .latest-news-item {
+    grid-template-columns: 268px 1fr;
+  }
 }
 
 .magazine img {
@@ -445,17 +451,6 @@ ul {
   padding: 0;
 }
 
-.magazine-item .category a {
-  padding: 0;
-}
-
-.magazine-category {
-  display: inline-block;
-  margin-right: 7px;
-  padding: 0 7px;
-  color: #fff;
-  background-color: #f72210;
-}
 
 /* Editor's Pick section */
 
@@ -464,6 +459,7 @@ ul {
 }
 
 /* Main Category */
+
 .main-category {
   margin-top: 30px;
 }
@@ -573,10 +569,6 @@ footer {
   color: #666;
 }
 
-footer a {
-  color: #666;
-}
-
 footer header {
   display: flex;
   align-items: flex-end;
@@ -615,29 +607,21 @@ footer header {
   background: url(../images/slideshow.png) 0 0/contain no-repeat;
 }
 
-.slide-category a {
-  font-size: 20px;
-}
-
-.category a,
+/* .category a,
 .slide-category,
 .magazine-category {
   font-size: 17px;
   font-weight: bold;
   font-stretch: condensed;
   text-transform: uppercase;
-}
+} */
 
-.slide-category a {
-  font-size: 20px;
-}
-
-.category a,
+/* .category a,
 .slide-category a {
   display: block;
   text-decoration: none;
   color: #f72210;
-}
+} */
 
 .genericon {
   display: block;
@@ -669,12 +653,6 @@ footer header {
   padding-right: 0;
   margin-right: 0;
   border-right: none;
-}
-
-.edition-links a:hover,
-.footer-nav a:hover {
-  text-decoration: none;
-  color: #000;
 }
 
 .label {
