@@ -198,9 +198,6 @@ ul {
   color: rgba(39, 39, 39, 0.5);
 }
 
-
-/* Magazine Section */
-
 .section-header {
   display: flex;
   justify-content: center;
@@ -451,14 +448,9 @@ h6 a:hover {
   padding: 0;
 }
 
-
-/* Editor's Pick section */
-
 .editors-pick-item {
   margin-bottom: 20px;
 }
-
-/* Main Category */
 
 .main-category {
   margin-top: 30px;
@@ -477,8 +469,6 @@ h6 a:hover {
   padding-bottom: 30px;
   border-bottom: 1px solid #ddd;
 }
-
-/* Call to Action section */
 
 .cta {
   padding-top: 40px;
