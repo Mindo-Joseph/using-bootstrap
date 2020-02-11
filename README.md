@@ -16,7 +16,7 @@ This project tests the understanding of bootstrap by implementing a responsive c
 
 ## Live Demo
 
-[Live Demo Link](http://htmlpreview.github.io/?https://github.com/Mindo-Joseph/apple.com-page-clone/blob/ft-main-landing-page-170502316/index.html)
+[Live Demo Link](https://using-bootstrap-git-ft-main-landing-page.mindojoseph.now.sh/)
 
 
 👤 **Author**
@@ -31,7 +31,7 @@ This project tests the understanding of bootstrap by implementing a responsive c
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Mindo-Joseph/apple.com-page-clone/issues).
+Feel free to check the [issues page](https://github.com/Mindo-Joseph/using-bootstrap/issues).
 
 ## Show your support
 
