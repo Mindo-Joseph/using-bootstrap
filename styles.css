@@ -76,16 +76,64 @@ h4 {
   padding-right: 30px;
   background: #fff;
 }
-
-.header-top {
-  height: 95px;
-  background: #f72210;
+.navbar {
+  position: relative;
 }
 
-.header-top .container {
-  max-width: 1310px;
-  padding-top: 20px;
+.header {
+  width: 100%;
 }
+
+.header:first-child {
+  background-color: #F72210;
+}
+
+.header:first-child p {
+  width: 100px;
+  color: #fff;
+
+}
+
+.header:last-child {
+  padding: 15px 15px 15px 0;
+  background-color: white;
+  border: 2px solid #f4f5f6;
+}
+
+.header:last-child .navbar {
+  height: 24px;
+}
+
+.header:last-child .form-inline .form-control {
+  width: 65px;
+  height: 24px;
+  color: rgba(0,0,0,.55);
+  background-color: white;
+  font-size: 16px;
+
+}
+
+.header:last-child .form-inline .btn {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+}
+
+.header .navbar-brand svg{
+  width: 132px;
+  height: 20px;
+  fill: white;
+}
+
+@media screen and (min-width: 992px) {
+
+  .header .navbar-brand svg{
+    width: 396px;
+    height: 60px;
+    fill: white;
+  }
+  
+
 
 ul {
   list-style-type: none;
