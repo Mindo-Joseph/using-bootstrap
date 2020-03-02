@@ -172,8 +172,9 @@ ul {
   left: 0;
 }
 .more-stories{
-  position: sticky;
-  top: 1;
+  height: 600px;
+  overflow-y: auto;
+ 
 }
 
 .more-stories-item,
