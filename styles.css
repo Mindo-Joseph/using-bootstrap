@@ -11,6 +11,7 @@ body {
   line-height: 20px;
   color: #333;
   background: #f4f5f6;
+  overflow-x: hidden;
 }
 
 strong {
@@ -70,7 +71,7 @@ h4 {
   line-height: 22px;
 }
 
-.fluid-container {
+.container-fluid {
   padding-left: 30px;
   padding-right: 30px;
   background: #fff;
@@ -169,6 +170,10 @@ ul {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+.more-stories{
+  position: sticky;
+  top: 1;
 }
 
 .more-stories-item,
@@ -384,11 +389,17 @@ h6 a:hover {
   text-decoration: none;
   color: #f72210;
 }
+@media only screen and (min-width: 768px) {
+  .more-stories {
+    position: sticky;
+    top: 1000px;
+  }
 
 @media only screen and (max-width: 768px) {
   .latest-news-item {
     grid-template-columns: 268px 1fr;
   }
+  
 }
 
 .magazine img {
@@ -663,4 +674,5 @@ footer header {
   .social {
     margin-left: -10px;
   }
+}
 }
