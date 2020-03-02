@@ -132,9 +132,12 @@ h4 {
     height: 60px;
     fill: white;
   }
+  body {
+    overflow-x: hidden;
+  }
   
 
-
+}
 ul {
   list-style-type: none;
 }
