@@ -88,10 +88,12 @@ h4 {
 .header:first-child {
   background-color: #f72210;
 }
+
 .other-container {
   padding-left: 30px;
   padding-right: 30px;
 }
+
 .header:first-child p {
   width: 100px;
   color: #fff;
