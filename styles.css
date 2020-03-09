@@ -4,7 +4,7 @@
 
 body {
   min-width: 360px;
-  max-width: 1310px;
+  max-width: 100%;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -88,7 +88,10 @@ h4 {
 .header:first-child {
   background-color: #f72210;
 }
-
+.other-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .header:first-child p {
   width: 100px;
   color: #fff;
